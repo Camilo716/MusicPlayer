@@ -1,0 +1,74 @@
+:root {
+    --background-color: #121212;
+    --text-color: #FFFFFF;
+    --button-bg-color: #00BA00;
+    --button-hover-bg-color: #008500;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-size: 6vh;
+    text-align: center;
+}
+
+h2{
+    color: var(--button-bg-color);
+    font-size: 3vh;
+    text-align: center;
+}
+
+p{
+    font-size: 2vh;
+}
+
+.audio{
+    margin: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.passBtn{
+    cursor: pointer;
+    height: 4vh;
+    margin: 1vh;
+}
+
+#songInfo {
+    text-align: center;
+}
+
+#songImg {
+    display: block;
+    width: 100%;
+    height: 30vh;
+    margin: 20px auto;
+}
+
+button {
+    background-color: var(--button-bg-color);
+    color: var(--background-color);
+    border: none;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 1vh 2vh;
+}
+
+button:hover {
+    background-color: var(--button-hover-bg-color);
+}

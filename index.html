@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi App de Música</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Music App</h1>
+
+    <div id="songInfo">
+        <h2 id="songName"></h2>
+        <p id="artistName"></p>
+        <img id="songImg" src="">
+    </div>
+    
+    <div class="audio">
+        <img class="passBtn" id="prevButton" src="./img/prev.png">
+        <audio id="audioPlayer" controls>
+            <source id="audioSource" src="" type="audio/mpeg">
+            Tu navegador no soporta la reproducción de audio.
+        </audio>
+        <img class="passBtn" id="nextButton" src="./img/nxt.png">
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "After Hours",
+        "url": "./Music/after-hours.mp3",
+        "artist": "The Weeknd",
+        "image": "./img/The_Weeknd.jpg"
+    },
+    {
+        "name": "Call out my name",
+        "url": "./Music/call-out-my-name.mp3",
+        "artist": "The Weeknd",
+        "image": "./img/The_Weeknd2.jpg"
+    },
+    {
+        "name": "Die for you",
+        "url": "./Music/die-for-you.mp3",
+        "artist": "The Weeknd",
+        "image": "./img/The_Weeknd3.jpg"
+    },
+    {
+        "name": "Money trees",
+        "url": "./Music/money-trees.mp3",
+        "artist": "Kendrick lamar",
+        "image": "./img/Money_Trees.jpg"
+    }
+]
